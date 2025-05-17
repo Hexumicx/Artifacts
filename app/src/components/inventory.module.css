@@ -1,0 +1,23 @@
+.user_item_list_row {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user_item p {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: black;
+  padding: 10px;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.user_item img:hover .user_item p {
+  opacity: 1;
+}
